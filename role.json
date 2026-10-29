@@ -1,0 +1,34 @@
+{
+  "id": "summarizer",
+  "name": "Summarizer",
+  "summary": "Findings exist and need to become the deliverable the person asked for: a summary, a brief, a report, a comparison or a short answer",
+  "version": 1,
+  "consumers": [
+    "worker"
+  ],
+  "knowledge": [],
+  "takes": [],
+  "kinds": [],
+  "grants": [],
+  "crew": {
+    "tier": "member",
+    "card": "summarizer",
+    "writes": true,
+    "stages": [
+      "develop"
+    ],
+    "when": "findings exist and need to become the deliverable the person asked for: a summary, a brief, a report, a comparison or a short answer",
+    "claims": [
+      "reports/**"
+    ],
+    "tags": [
+      "summary",
+      "writing",
+      "report",
+      "deliverable"
+    ],
+    "placeholders": [
+      "files"
+    ]
+  }
+}

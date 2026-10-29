@@ -1,0 +1,5 @@
+{
+  "name": "rasa-role-summarizer",
+  "version": "0.1.0",
+  "description": "The Summarizer role (`summarizer`) as a RasaOS role module. Findings exist and need to become the deliverable the person asked for: a summary, a brief, a report, a comparison or a short answer"
+}
